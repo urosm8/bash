@@ -1,0 +1,251 @@
+    1  clear
+    2  mkdir temp
+    3  ls
+    4  rm -r temp
+    5  ls
+    6  ls | grep temp
+    7  clear
+    8  cd Desktop/
+    9  cd ..
+   10  cd Desktop/ && mkdir temp
+   11  clear
+   12  exit
+   13  lspci
+   14  cpu --help
+   15  git --version
+   16  sudo apt install git
+   17  git --version
+   18  cler
+   19  clear
+   20  gcc -version
+   21  sudo apt update
+   22  sudo apt install --help
+   23  sudo apt install -y build-essential 
+   24  python3 --version
+   25  clear
+   26  python3
+   27  clear
+   28  exit
+   29  gcc --version
+   30  g++ --version
+   31  make --version
+   32  dpkg-buildpackage --version
+   33  clear && exit
+   34  cd Desktop/
+   35  mkdir UM_WORKSPACE
+   36  cd UM_WORKSPACE/
+   37  mkdir bash
+   38  ls
+   39  rm -r bash/
+   40  mkdir bashDir
+   41  rm -r bashDir/
+   42  mkdir bash_workspace
+   43  cd bash_workspace/
+   44  clear 
+   45  exit
+   46  ls
+   47  pwd
+   48  ls -a
+   49  ls -l
+   50  ls -la
+   51  clear
+   52  cd Desktop/
+   53  cd ..
+   54  cd Dow
+   55  cd Downloads/
+   56  cd ~
+   57  pushd --help
+   58  cd Downloads/
+   59  pushd /etc
+   60  popd
+   61  clear
+   62  popd --help
+   63  man popd
+   64  dirs
+   65  dirs --help
+   66  clear
+   67  ls
+   68  file 1_cas.pdf 
+   69  locate --help
+   70  locate 1_cas.pdf
+   71  sudo apt install plocate
+   72  clear
+   73  locate --help
+   74  locate 1_cas
+   75  locate -c 1_cas
+   76  locate fstab
+   77  sudo updatedb --help
+   78  clear
+   79  which --help
+   80  man which
+   81  which cal
+   82  cal
+   83  sudo apt install ncal
+   84* 
+   85  which cal
+   86  cal
+   87  hystory
+   88  history
+   89  history --help
+   90  clear
+   91  whatis --help
+   92  whatis pwd
+   93  clear
+   94  man man
+   95  apropos directory
+   96  apropos --help
+   97  man apropos
+   98  clear
+   99  ls
+  100  ls -al
+  101  touch 1_cas.pdf 
+  102  ls -al
+  103  clear
+  104  ls
+  105  touch f1 f2 f3
+  106  ls
+  107  clear
+  108  cp ~/.bashrc bashrc_2
+  109  ls
+  110  cp bashrc_2 bashrc.backup
+  111  ls
+  112  cat bashrc_2
+  113  clear
+  114  ls
+  115  rm f*
+  116  ls
+  117  clear
+  118  mkdir junk2
+  119  rm -r junk2
+  120  ls
+  121  cat >> f2
+  122  ls
+  123  cat f2
+  124  clear
+  125  more bashrc
+  126  ls
+  127  more bashrc_
+  128  more bashrc_2 
+  129  less bashrc_2 
+  130  clear
+  131  cat f2
+  132  nano f2
+  133  cat f2
+  134  nano f2
+  135  history | less
+  136  ls -al
+  137  ls -al / > lsout.txt
+  138  ls
+  139  less lsout.txt 
+  140  cat lsout.txt 
+  141  clear
+  142  ls
+  143  rm b*
+  144  rm lsout.txt 
+  145  clear
+  146  ls
+  147  rm f2
+  148  ls
+  149  clear
+  150* 
+  151  users
+  152  id
+  153  id --help
+  154  clear
+  155  ls -l
+  156  touch f1 f2 f3
+  157  ls
+  158  ls -l
+  159  chmod +x f1
+  160  ls -l
+  161  chmod 700 f1
+  162  ls -l
+  163  ls -al
+  164  ls -hal
+  165  chmod 744 f1
+  166  ls -l
+  167  clear
+  168  chmod 644 f1
+  169  ls -l
+  170  clear
+  171  chmod --help
+  172  man chmod
+  173  ls
+  174  rm f*
+  175  ls
+  176  clear
+  177  cd ~
+  178  cd Downloads/
+  179  ls
+  180  rm 1
+  181  rm 1_cas.pdf 
+  182  ls
+  183  clear
+  184  cd ~
+  185  clear
+  186  whatch --help
+  187  watch --help
+  188  whatis watch
+  189  man watch
+  190  free --help
+  191  clear
+  192  whatis free
+  193  free
+  194  free -h
+  195  watch free -h
+  196  killall --help
+  197  whatis killall
+  198  clear
+  199  which killall
+  200  which teams
+  201  which google-chrome
+  202  clear
+  203  exit
+  204  history
+  205  clear
+  206  ls
+  207  cd Downloads/
+  208  ls
+  209  cd ..
+  210  cd Desktop/
+  211  ls
+  212  clear
+  213  man man
+  214  clear
+  215  ls /home
+  216  clear
+  217  cd /bin
+  218  ls
+  219  cat pwd
+  220  clear
+  221  cd ~
+  222  stat ~
+  223  file ~
+  224  file /bin/pwd
+  225  cat ~/.bash_history 
+  226  clear
+  227  ls
+  228  ls > f1.txt && cat f1.txt
+  229  cp "f*" &>> f1.txt 
+  230  cat f1.txt 
+  231  grep --help
+  232  clear
+  233  ls
+  234  ls | grep D
+  235  whatis tee
+  236  ls -hal | cut -d\  -f3,1
+  237  ls -hal | cut -d\  -f3,9
+  238  ls -hal
+  239  ls -hal | cut -d\  -f3,10
+  240  ls -hal | tr -s \  \   | cut -d\  -f3,10
+  241  echo aaaaaaaaaaaaaaaaaaaaa | tr a b -s
+  242  echo aaaaaaaaaaaaaaaaaaaaa | tr -s  a b
+  243  echo aaaaaaaaaaaaaaaaaasasaassaaaaa | tr -s  a b
+  244  echo aaaaaaaaaaaaaaaaaasasaassaaaaa | tr -d s  | tr -s  a b
+  245  find / -iname videos 2> /dev/null 
+  246  time find / -iname videos 2> /dev/null 
+  247  time --help
+  248  man time
+  249  history
+  250  cd Desktop/
+  251  history > linux_commands1.txt

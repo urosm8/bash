@@ -1,0 +1,1000 @@
+   25  clear
+   26  python3
+   27  clear
+   28  exit
+   29  gcc --version
+   30  g++ --version
+   31  make --version
+   32  dpkg-buildpackage --version
+   33  clear && exit
+   34  cd Desktop/
+   35  mkdir UM_WORKSPACE
+   36  cd UM_WORKSPACE/
+   37  mkdir bash
+   38  ls
+   39  rm -r bash/
+   40  mkdir bashDir
+   41  rm -r bashDir/
+   42  mkdir bash_workspace
+   43  cd bash_workspace/
+   44  clear 
+   45  exit
+   46  ls
+   47  pwd
+   48  ls -a
+   49  ls -l
+   50  ls -la
+   51  clear
+   52  cd Desktop/
+   53  cd ..
+   54  cd Dow
+   55  cd Downloads/
+   56  cd ~
+   57  pushd --help
+   58  cd Downloads/
+   59  pushd /etc
+   60  popd
+   61  clear
+   62  popd --help
+   63  man popd
+   64  dirs
+   65  dirs --help
+   66  clear
+   67  ls
+   68  file 1_cas.pdf 
+   69  locate --help
+   70  locate 1_cas.pdf
+   71  sudo apt install plocate
+   72  clear
+   73  locate --help
+   74  locate 1_cas
+   75  locate -c 1_cas
+   76  locate fstab
+   77  sudo updatedb --help
+   78  clear
+   79  which --help
+   80  man which
+   81  which cal
+   82  cal
+   83  sudo apt install ncal
+   84  clear
+   85  which cal
+   86  cal
+   87  hystory
+   88  history
+   89  history --help
+   90  clear
+   91  whatis --help
+   92  whatis pwd
+   93  clear
+   94  man man
+   95  apropos directory
+   96  apropos --help
+   97  man apropos
+   98  clear
+   99  ls
+  100  ls -al
+  101  touch 1_cas.pdf 
+  102  ls -al
+  103  clear
+  104  ls
+  105  touch f1 f2 f3
+  106  ls
+  107  clear
+  108  cp ~/.bashrc bashrc_2
+  109  ls
+  110  cp bashrc_2 bashrc.backup
+  111  ls
+  112  cat bashrc_2
+  113  clear
+  114  ls
+  115  rm f*
+  116  ls
+  117  clear
+  118  mkdir junk2
+  119  rm -r junk2
+  120  ls
+  121  cat >> f2
+  122  ls
+  123  cat f2
+  124  clear
+  125  more bashrc
+  126  ls
+  127  more bashrc_
+  128  more bashrc_2 
+  129  less bashrc_2 
+  130  clear
+  131  cat f2
+  132  nano f2
+  133  cat f2
+  134  nano f2
+  135  history | less
+  136  ls -al
+  137  ls -al / > lsout.txt
+  138  ls
+  139  less lsout.txt 
+  140  cat lsout.txt 
+  141  clear
+  142  ls
+  143  rm b*
+  144  rm lsout.txt 
+  145  clear
+  146  ls
+  147  rm f2
+  148  ls
+  149  clear
+  150  sudo -s
+  151  users
+  152  id
+  153  id --help
+  154  clear
+  155  ls -l
+  156  touch f1 f2 f3
+  157  ls
+  158  ls -l
+  159  chmod +x f1
+  160  ls -l
+  161  chmod 700 f1
+  162  ls -l
+  163  ls -al
+  164  ls -hal
+  165  chmod 744 f1
+  166  ls -l
+  167  clear
+  168  chmod 644 f1
+  169  ls -l
+  170  clear
+  171  chmod --help
+  172  man chmod
+  173  ls
+  174  rm f*
+  175  ls
+  176  clear
+  177  cd ~
+  178  cd Downloads/
+  179  ls
+  180  rm 1
+  181  rm 1_cas.pdf 
+  182  ls
+  183  clear
+  184  cd ~
+  185  clear
+  186  whatch --help
+  187  watch --help
+  188  whatis watch
+  189  man watch
+  190  free --help
+  191  clear
+  192  whatis free
+  193  free
+  194  free -h
+  195  watch free -h
+  196  killall --help
+  197  whatis killall
+  198  clear
+  199  which killall
+  200  which teams
+  201  which google-chrome
+  202  clear
+  203  exit
+  204  history
+  205  clear
+  206  ls
+  207  cd Downloads/
+  208  ls
+  209  cd ..
+  210  cd Desktop/
+  211  ls
+  212  clear
+  213  man man
+  214  clear
+  215  ls /home
+  216  clear
+  217  cd /bin
+  218  ls
+  219  cat pwd
+  220  clear
+  221  cd ~
+  222  stat ~
+  223  file ~
+  224  file /bin/pwd
+  225  cat ~/.bash_history 
+  226  clear
+  227  ls
+  228  ls > f1.txt && cat f1.txt
+  229  cp "f*" &>> f1.txt 
+  230  cat f1.txt 
+  231  grep --help
+  232  clear
+  233  ls
+  234  ls | grep D
+  235  whatis tee
+  236  ls -hal | cut -d\  -f3,1
+  237  ls -hal | cut -d\  -f3,9
+  238  ls -hal
+  239  ls -hal | cut -d\  -f3,10
+  240  ls -hal | tr -s \  \   | cut -d\  -f3,10
+  241  echo aaaaaaaaaaaaaaaaaaaaa | tr a b -s
+  242  echo aaaaaaaaaaaaaaaaaaaaa | tr -s  a b
+  243  echo aaaaaaaaaaaaaaaaaasasaassaaaaa | tr -s  a b
+  244  echo aaaaaaaaaaaaaaaaaasasaassaaaaa | tr -d s  | tr -s  a b
+  245  find / -iname videos 2> /dev/null 
+  246  time find / -iname videos 2> /dev/null 
+  247  time --help
+  248  man time
+  249  history
+  250  cd Desktop/
+  251  history > linux_commands1.txt
+  252  clear
+  253  ls
+  254  car linux_commands1.txt 
+  255  cat linux_commands1.txt 
+  256  clear
+  257  exit
+  258  cd Downloads/
+  259  ls
+  260  mv zao ../Desktop/cas2/
+  261  exit
+  262  ls
+  263  clear
+  264  cd Downloads/
+  265  ls
+  266  mv beskonacni ../Desktop/cas2/
+  267  exit
+  268  locate .bashrc.
+  269  sudo updatedb
+  270  locate .bashrc.
+  271  locate .bashrc
+  272  wc --help
+  273  locate .bashrc | wc -l
+  274  clear
+  275  find / --name .bashrc | wc -l
+  276  find --help
+  277  find / -iname .bashrc | wc -l
+  278  clear
+  279  sudo find / -type f -name "*.bashrc*" | wc -l
+  280  clea
+  281  clear
+  282  ls
+  283  ls --help
+  284  clear
+  285  ls -hal
+  286  clear
+  287  find -type f -size +3c
+  288  clear
+  289  find --help
+  290  man find
+  291  clear
+  292  cal
+  293  cal --help
+  294  man cal
+  295  clear
+  296  cal
+  297  cal | cut -d " " -f2
+  298  cal | cut -d\   -f2
+  299  cal | cut -d\   -f2 | grep "[0-9]"
+  300  cal | cut -d\   -f2 | grep "[0-9]" | tail -n 2
+  301  cal | cut -d\   -f2 | grep "[0-9]" | tail -n 2 | head -n 1
+  302  clear
+  303  find / -iname "*.file.*" | wc -l
+  304  sudo find -type f  -iname "*.file*" | wc -l
+  305  clear
+  306  man find 
+  307  find -type f -size -5M
+  308  find -type f -size -5M | wc -l
+  309  clear
+  310  cal
+  311  cal | cut -d\ -f5 | grep "[0-9]" | tail -n 1
+  312  cal | cut -d\  -f5 | grep "[0-9]" | tail -n 1
+  313  clear
+  314  ls
+  315  rm f1
+  316  rm f1`
+  317  rm f1.txt 
+  318  clear
+  319  ls
+  320  cd Desktop/
+  321  ls
+  322  mkdir cas2
+  323  cd cas2
+  324  clear
+  325  touch f1.txt
+  326  ls -hal
+  327  whatis umask
+  328  umask
+  329  clear
+  330  sudo -i
+  331  ls
+  332  sudo -s
+  333  clear
+  334  ls
+  335  ls -hal f1.txt 
+  336  chmod g +w f1.txt 
+  337  chmod g+w f1.txt 
+  338  ls -hal f1.txt 
+  339  chmod o=w f1.txt 
+  340  ls -hal f1.txt 
+  341  chmod --help
+  342  chmod 644 f1.txt 
+  343  ls -hal f1.txt 
+  344  clear
+  345  chown --help
+  346  chown root f1.txt 
+  347  clear
+  348  ls -hal
+  349  clear
+  350  mkdir deljeni
+  351  ls -hal
+  352  rmdir deljeni
+  353  sudo su
+  354  ls -hal
+  355  clear
+  356  chown umarkovic deljeni2
+  357  sudo chown umarkovic deljeni2
+  358  ls -hal
+  359  sudo chown root  deljeni2
+  360  clear
+  361  ls
+  362  ls -hal
+  363  clear
+  364  addgroup share 
+  365  sudo addgroup share
+  366  chown .share deljeni2/
+  367  sudo chown .share deljeni2/
+  368  ls -hal
+  369  chmod g+w deljeni2/
+  370  sudo chmod g+w deljeni2/
+  371  ls -ahl
+  372  clear
+  373  cd deljeni2/ && sudo su
+  374  clear
+  375  ls
+  376  cd ..
+  377  rm -r deljeni2/
+  378  sudo su
+  379  clear
+  380  ls
+  381  clear
+  382  ps --help
+  383  clear
+  384  man ps
+  385  clear
+  386  ls
+  387  ps aux
+  388  ps aux | tr \  \  | cut d\  -f9
+  389  ps aux | tr \  \  | cut -d\  -f9
+  390  clear
+  391  ps aux
+  392  ps aux | tr \  \  -s  | cut -d\  -f9
+  393  tr --help
+  394  ps aux | tr -s \  \  
+  395  ps aux | tr -s \  \  | cut -d\  -f 1
+  396  ps aux | tr -s \  \  | cut -d\  -f9
+  397  clear
+  398  jobs
+  399  ls
+  400  chmod u+x zao
+  401  ls
+  402  clear
+  403  ./zao
+  404  ls
+  405  zao
+  406  clear
+  407  ls
+  408  chmod u+x beskonacni 
+  409  ./beskonacni 
+  410  clear
+  411  ls -hal
+  412  clear
+  413  cat beskonacni 
+  414  clear
+  415  jobs
+  416  clear
+  417  ls
+  418  ./beskonacni 
+  419  clear
+  420  beskonacni
+  421  clear
+  422  ls
+  423  rm beskonacni 
+  424  rm zao
+  425  clear
+  426  cd ~/Downloads/
+  427  ls
+  428  dirs
+  429  ls
+  430  clear
+  431  cd ~/Desktop/
+  432  ls
+  433  cd cas2/
+  434  ls
+  435  clear
+  436  ls
+  437  clear
+  438  nano beskonacni.c
+  439  cat beskonacni.c 
+  440  clear
+  441  gcc -o beskonacni beskonacni.c 
+  442  ls
+  443  clear
+  444  ./beskonacni 
+  445  jobs
+  446  jobs -p
+  447  clear
+  448  jobs -p
+  449  kill 18057
+  450  jobs
+  451  ps aux | grep beskonacni
+  452  kill 18057
+  453  ps aux | grep beskonacni
+  454  sudo kill 18057
+  455  ps aux | grep beskonacni
+  456  clear
+  457  jobs
+  458  clear
+  459  jobs
+  460  fg 1
+  461  clear
+  462  jobs
+  463  clear
+  464  top
+  465  clear
+  466  env | grep USER
+  467  echo USER
+  468  echo $USER
+  469  echo $HOME
+  470  var1 = 10
+  471  var1=10
+  472  echo $var1
+  473  clear
+  474  env | grep var1
+  475  clear
+  476  var2=Neki tekst
+  477  var2='Neki tekst'
+  478  echo $var2
+  479  clear
+  480  var3=$var2
+  481  b1=19
+  482  b2=17
+  483  b3=$(expr $b1 + $b2)
+  484  echo $b3
+  485  clear
+  486  b3=$(expr $b1 - $b2)
+  487  echo $b3
+  488  b3=$(expr $b1 * $b2)
+  489  echo $b3
+  490  clear
+  491  ls
+  492  rm beskonacni
+  493  rm beskonacni.c 
+  494  ls
+  495  echo $b1
+  496  echo $b2
+  497  echo $[ $b1 + $b2 ]
+  498  echo $[ $b1 - $b2 ]
+  499  echo $[ $b1 / $b2 ]
+  500  echo $[ $b1 * $b2 ]
+  501  clear
+  502  echo $[ $b1 % $b2 ]
+  503  clear
+  504  echo $?
+  505  ls -l
+  506  echo $?
+  507  echo $?d
+  508  ls -ld
+  509  ls -ldsssaw
+  510  echo $?
+  511  cler
+  512  clear
+  513  var=123
+  514  test $var = 123; echo $?
+  515  test $var = 13; echo $?
+  516  [ $var = 123 ]; echo $?
+  517  [ $var = 1232 ]; echo $?
+  518  [ ABC '<' abc ]
+  519  [ ABC '<' abc ]; echo $?
+  520  [ -z 'abc' ]
+  521  [ -z 'abc' ];echo $?
+  522  [ -z 'abc0' ];echo $?
+  523  [ -z '' ];echo $?
+  524  [ -n '' ];echo $?
+  525  [ -n 'a' ];echo $?
+  526  [ ABC -gt abc ]; echo $?
+  527  [ 4 -gt 2  ]; echo $?
+  528  [ 4 -gt 22 ]; echo $?
+  529  clear
+  530  nula=0
+  531  echo $nula
+  532  [ -z $nula ]; echo $?
+  533  [ -n $nula ]; echo $?
+  534  clear
+  535  echo $var
+  536  [ $var -gt 124 -o $var -lt 100 ];echo $?
+  537  [ $var -gt 122 -o $var -lt 100 ];echo $?
+  538  clear
+  539  ls -hal
+  540  touch df1
+  541  ls -hal
+  542  [ -f df1 ];echo $?
+  543  [ -s df1 ];echo $?
+  544  [ -d df1 ];echo $?
+  545  [ -x df1 ];echo $?
+  546  clear
+  547  i=0
+  548  echo $i
+  549  let i++
+  550  echo $i
+  551  let i+=10
+  552  echo $i
+  553  clear
+  554  ls
+  555  rm df1 
+  556  clear
+  557  ls ../UM_WORKSPACE/bash_workspace/
+  558  clear
+  559  history
+  560  clear
+  561  sudo updatedb
+  562  clear
+  563  ls ../UM_WORKSPACE/bash_workspace/
+  564  whatis df
+  565  df
+  566  df --help
+  567  clear
+  568  man df
+  569  ls
+  570  touch temp
+  571  df temp
+  572  rm temp
+  573  clear
+  574  whatis du
+  575  du
+  576  clear
+  577  man du
+  578  ls
+  579  du ../cas2/
+  580  clear
+  581  du -h  ../cas2/
+  582  du -ah  ../cas2/
+  583  clear
+  584  whatis alias
+  585  which alias
+  586  alias --help
+  587  alias
+  588  man alias
+  589  clear
+  590  apropos alias
+  591  clear
+  592  whatis patch
+  593  whatis diff
+  594  ls
+  595  touch f1.txt
+  596  touch f2.txt
+  597  echo fajl1 > f1.txt 
+  598  echo fajl2 > f2.txt 
+  599  cat f*
+  600  clear
+  601  diff f1.txt  f2.txt 
+  602  alias cas2="cd ~/Desktop/cas2"
+  603  alias
+  604  cd ~
+  605  cas2
+  606  unalias cas2
+  607  alias
+  608  clear
+  609  cd ..
+  610  cas2
+  611  cd cas2/
+  612  clear
+  613  ls
+  614  whatis patch
+  615  clear
+  616  ls
+  617  touch pilot.c
+  618  nano pilot.c 
+  619  ls
+  620  gcc -o pilot pilot.c 
+  621  ./pilot 
+  622  clear
+  623  gedit pilot.c
+  624  gcc -o pilot pilot.c 
+  625  clear
+  626  ls
+  627  objdump --help
+  628  objdump -d -Mintel pilot
+  629  clear
+  630  ls
+  631  readelf --help
+  632  readelf pilot
+  633  readelf -S pilot
+  634  clear
+  635  diff -c f1.txt f2.txt 
+  636  diff -u f1.txt f2.txt 
+  637  diff -u f1.txt f2.txt > f1f2.patch
+  638  cat f1f2.patch 
+  639  clear
+  640  patch f1.txt f1f2.patch 
+  641  cat f1.txt 
+  642  clear
+  643  patch -R f1.txt f1f2.patch 
+  644  cat f1.txt 
+  645  clear
+  646  patch --help
+  647  clear
+  648  export
+  649  whatis export
+  650  clear
+  651  export --help
+  652  man export
+  653  printenv
+  654  clear
+  655  set
+  656  set | grep var1
+  657  clear
+  658  printenv | grep var1
+  659  clear
+  660  exit
+  661  history
+  662  clear
+  663  ls Desktop/UM_WORKSPACE/bash_workspace/
+  664  history > Desktop/UM_WORKSPACE/bash_workspace/linux_commands2.txt
+  665  ls Desktop/UM_WORKSPACE/bash_workspace/
+  666  cat Desktop/UM_WORKSPACE/bash_workspace/linux_commands2.txt 
+  667  clear
+  668  ls
+  669  cd Desktop/
+  670  ls
+  671  ls cas2/
+  672  rm -r cas2/
+  673  clear
+  674  shutdown
+  675  cd Desktop/
+  676  ls
+  677  cd UM_WORKSPACE/
+  678  ls
+  679  cd bash_workspace/
+  680  ls
+  681  touch f1.txt
+  682  gedit f1.txt 
+  683  nano f1.txt 
+  684  clear
+  685  rm f1
+  686  f1ls
+  687  ls
+  688  rm f1.txt 
+  689  clear
+  690  touch pos1
+  691  gedit pos1 
+  692  ll
+  693  chmod u+x pos1 
+  694  ls
+  695  ./pos1 
+  696  clear
+  697  gedit pos1 
+  698  ./pos1 
+  699  clear
+  700  gedit pos1 
+  701  ./pos1 
+  702  gedit pos1 
+  703  gedit & pos1 
+  704  ls
+  705  clear
+  706  gedit pos1 
+  707  ./pos1 
+  708  gedit pos1 
+  709  mov pos1 pos1.sh
+  710  mv pos1 pos1.sh
+  711  clear
+  712  ls
+  713  ./pos1.sh 
+  714  clear
+  715  gedit pos1.sh 
+  716  ./pos1.sh 
+  717  gedit pos1.sh 
+  718  ./pos1.sh 
+  719  clear
+  720  gedit pos1.sh 
+  721  ./pos1.sh 
+  722  clear
+  723  gedit pos1.sh 
+  724  clear
+  725  ./pos1.sh 
+  726  ls
+  727  clear
+  728  ls -h
+  729  clear
+  730  gedit pos1.sh 
+  731  ./pos1.sh 
+  732  touch f1.txt f2.txt f3.txt f4.txt
+  733  ls
+  734  clear
+  735  find . -maxdepth 1 -name "*.txt"
+  736  find . -maxdepth 1 -name "f*.txt"
+  737  clear
+  738  gedit pos1.sh 
+  739  ls
+  740  ./pos1.sh 
+  741  ls
+  742  clear
+  743  touch f1.txt f2.txt f3.txt f4.txt
+  744  gedit pos1.sh 
+  745  ls
+  746  ./pos1.sh 
+  747  ls
+  748  clear
+  749  echo $IFS
+  750  clear
+  751  touch ff.txt && chmod 777 ff.txt
+  752  ls
+  753  clear
+  754  echo Prva recenica. >> ff.txt 
+  755  echo Ovo je druga recenica. >> ff.txt 
+  756  clear
+  757  ls
+  758  cat ff.txt 
+  759  clear
+  760  gedit pos1.sh 
+  761  ./pos1.sh 
+  762  ls
+  763  clear
+  764  nano pos1.sh 
+  765  cat pos1.sh 
+  766  clear
+  767  touch ff.txt
+  768  chmod 777 ff.txt 
+  769  echo Prva recenica. >> ff.txt 
+  770  echo Ovo je druga recenica. >> ff.txt 
+  771  clear
+  772  cat ff.txt 
+  773  ./pos1.sh 
+  774  clear
+  775  nano ff.txt 
+  776  nano pos1.sh 
+  777  clear
+  778  ./pos1.sh 
+  779  clear
+  780  nano pos1.sh 
+  781  ./pos1.sh 
+  782  clear
+  783  gedit pos2.sh
+  784  chmod u+x pos2.sh
+  785  ./pos2.sh 
+  786  clear
+  787  sed --help
+  788  clear
+  789  ll
+  790  ll | sed 's/domain/DOMAIN'
+  791  ll | sed 's/domain/DOMAIN/'
+  792  ll | sed -e 's/domain/DOMAIN/; s/users/USERS/'
+  793  clear
+  794  ll | sed -e 's/domain/DOMAIN/; s/users/USERS/'
+  795  ll | sed -n 's/domain/DOMAIN/pg'
+  796  clear
+  797  ll | sed  '3,5s/domain/DOMAIN/'
+  798  ll | sed  ',5s/domain/DOMAIN/'
+  799  ll | sed  '3,s/domain/DOMAIN/'
+  800  ll | sed  '3,$s/domain/DOMAIN/'
+  801  clear
+  802  ll
+  803  ll | sed  '/linux/s/domain/DOMAIN/'
+  804  clear
+  805  ll
+  806  ll | sed '/linux/d'
+  807  clear
+  808  ll | sed '1a\UBACENI TEKST'
+  809  ll | sed '1i\UBACENI TEKST'
+  810  clear
+  811  cd~
+  812  cd ~
+  813  ll
+  814  clear
+  815  ll
+  816  clear
+  817  ll | sed -n '/bash/p'
+  818  ll | sed -n '/rwx/p'
+  819  clear
+  820  ll | sed -n '/rw./p'
+  821  clear
+  822  echo poooooos | sed -n '/p.s/p'
+  823  echo poooooos | sed -n '/p*s/p'
+  824  echo porooooos | sed -n '/p*s/p'
+  825  echo porooooos | sed -n '/p.*s/p'
+  826  echo p123s | sed -n '/p.*s/p'
+  827  clear
+  828  ll
+  829  clear
+  830  echo Pozdravi je | sed -n '/[ap]/p'
+  831  echo Pozdravi je | sed -n '/[p]/p'
+  832  echo Pozdravi je | sed -n '/[pe]/p'
+  833  echo Pozdravi je | sed -n '/[pPe]/p'
+  834  clear
+  835  echo Pozdravi je | sed -n '/[e]/p'
+  836  echo Pozdravi je | sed -n '/^[e]/p'
+  837  clear
+  838  echo Pozdravi je | sed -n '/^P[e]/p'
+  839  echo Pozdravi je | sed -n '/^P*[e]/p'
+  840  echo Pozdravi je | sed -n '/^P.*[e]/p'
+  841  echo Pozdravi je | sed -n '/^P.*[er]$/p'
+  842  echo Pozdravi je | sed -n '/^P.*[r]$/p'
+  843  clear
+  844  echo 123 | sed -n '/[1-9][1-9][1-9][1-9]/p'
+  845  echo 1234 | sed -n '/[1-9][1-9][1-9][1-9]/p'
+  846  echo a1234 | sed -n '/[1-9][1-9][1-9][1-9]/p'
+  847  echo a12a34 | sed -n '/[1-9][1-9][1-9][1-9]/p'
+  848  echo a12a34 | sed -n '/[1-9]{4}/p'
+  849  echo a12a34 | sed -n '/[1-9]{2}/p'
+  850  echo a12a34 | sed -n '/[1-9]/p'
+  851  clear
+  852  echo pos123pos | sed -En '/[1-9][1-9][1-9]/p'
+  853  echo pos123pos | sed -En '/[1-9]{3}/p'
+  854  echo pos1a23pos | sed -En '/[1-9]{3}/p'
+  855  echo pos1a23pos | sed -En '/[1-9]{3,}/p'
+  856  echo pos1a23pos | sed -En '/[1-9]{2,}/p'
+  857  echo pos1a23pos | sed -En '/[1-9]{3,4}/p'
+  858  echo pos1a213pos | sed -En '/[1-9]{3,4}/p'
+  859  clear
+  860  echo pos123post | sed -En 's/([a-z]*)([1-9]*)[a-z]*/\2\1/p'
+  861  echo pos123post | sed -En 's/([a-z]*)([1-9]*)[a-z]*/& &/p'
+  862  clear
+  863  echo mu180027d@student.etf.bg.ac.rs | sed -En '/^[a-z]{2}[0-9]{6}d\@student.etf.bg.ac.rs/p'
+  864  echo mu180027d@student.etf.bg.ac.rs | sed -En '/^[a-z]{2}[0-9]{6}d@student.etf.bg.ac.rs/p'
+  865  echo mu180027d@student.etf.bg.ac.rs | sed -En '/^[a-z]{2}[0-9]{6}d@student.etf.bg.ac.r/p'
+  866  echo mu180027d@student.etf.bg.ac.rs | sed -En '/^[a-z]{2}[0-9]{6}d@student.etf.bg.ac.r$/p'
+  867  echo mu180027d@student.etf.bg.ac.rs | sed -En '/^[a-z]{2}[0-9]{6}d@student\.etf\.bg\.ac\.rs$/p'
+  868  echo mu180027d@student.etf.bg.ac#rs | sed -En '/^[a-z]{2}[0-9]{6}d@student\.etf\.bg\.ac\.rs$/p'
+  869  echo mu180027d@student.etf.bg.ac.rs | sed -En '/^[a-z]{2}[0-9]{6}d@student\.etf\.bg\.ac\.rs$/p'
+  870  clear
+  871  cd Desktop/UM_WORKSPACE/bash_workspace/
+  872  ls
+  873  rm ff.txt 
+  874  cat pos2.sh 
+  875  clear
+  876  nano pos3.sh
+  877  chmod u+x pos3.sh 
+  878  ./pos3.sh Uros Markovic 2018/0027
+  879  clear
+  880  nano pos3.sh 
+  881  ./pos3.sh Uros Markovic 2018/0027 a a a  a a a a a a a a a a a a a
+  882  clear
+  883  nano pos3.sh 
+  884  clear
+  885  nano pos3.sh 
+  886  ./pos3.sh 
+  887  clear
+  888  nano pos3.sh 
+  889  ./pos3.sh Uros Markovic 2018/0027
+  890  clear
+  891  ./pos3.sh 'Uros Markovic' 2018/0027
+  892  ./pos3.sh 'Uros Markovic'
+  893  clear
+  894  nano pos3.sh 
+  895  ./pos3.sh 'Uros Markovic'
+  896  ./pos3.sh 'Uros Markovic' 2018/0027
+  897  clear
+  898  nano pos3.sh 
+  899  ./pos3.sh 'Uros Markovic' 2018/0027
+  900  nano pos3.sh 
+  901  ./pos3.sh 'Uros Markovic' 2018/0027
+  902  nano pos3.sh 
+  903  ./pos3.sh 'Uros Markovic' 2018/0027
+  904  nano pos2.sh 
+  905  nano pos1.sh 
+  906  nano pos3.sh 
+  907  ./pos3.sh 'Uros Markovic' 2018/0027
+  908  nano pos3.sh 
+  909  ./pos3.sh 'Uros Markovic' 2018/0027
+  910  nano pos3.sh 
+  911  ./pos3.sh 'Uros Markovic' 2018/0027
+  912  nano pos3.sh 
+  913  ./pos3.sh 'Uros Markovic' 2018/0027
+  914  clear
+  915  nano pos3.sh 
+  916  ./pos3
+  917  ./pos3.sh 
+  918  ./pos3.sh 'Uros Markovic' 2018/0027
+  919  clear
+  920  nano pos3.sh 
+  921  ./pos3.sh 'Uros Markovic' 2018/0027
+  922  clear
+  923  nano pos3.sh 
+  924  ./pos3.sh 'Uros Markovic' 2018/0027
+  925  nano pos4.sh
+  926  ls
+  927  chmod u+x pos4.sh 
+  928  ./pos4.sh -a -b
+  929  ./pos4.sh -a -ab
+  930  ./pos4.sh -aaaabbb -ab
+  931  ./pos4.sh -aaaabbb -abc
+  932  clear
+  933  nano pos4.sh 
+  934  ./pos4.sh -ab 123
+  935  ./pos4.sh -a 123 -b
+  936  clear
+  937  ./pos4.sh -a
+  938  clear
+  939  nano pos4.sh 
+  940  ./pos4.sh -a 123 UROS MARKOVIC 8
+  941  clear
+  942  nano pos4.sh 
+  943  ./pos4.sh -a 123 UROS MARKOVIC 8
+  944  clear
+  945  ls
+  946  nano pos5.sh
+  947  chmod u+x pos5.sh 
+  948  ls
+  949  clear
+  950  ./pos5.sh 
+  951  ./pos5.sh -f ./primer.tar.gz -d ./zadatak -p dz1
+  952  cler
+  953  clear
+  954  ./pos5.sh -f ./primer.tar.gz -d rezultat -p dz1 -v
+  955  clear
+  956  nano pos5.sh 
+  957  ./pos5.sh 
+  958  ./pos5.sh -f ./primer.tar.gz -d rezultat -p dz1 -v
+  959  clear
+  960  ls
+  961  rm -r primer
+  962  ls
+  963  nano pos5.sh 
+  964  ./pos5.sh 
+  965  ./pos5.sh -f ./primer.tar.gz -d rezultat -p dz1 -v
+  966  ls
+  967  rm -r rezultat/ 
+  968  rm -r primer
+  969  clear
+  970  ls
+  971  ll
+  972  clear
+  973  nano pos5.sh 
+  974  ./pos5.sh -f ./primer.tar.gz -d rezultat -p dz1 -v
+  975  nano pos5.sh 
+  976  ./pos5.sh -f ./primer.tar.gz -d rezultat -p dz1 -v
+  977  nano pos5.sh 
+  978  ./pos5.sh -f ./primer.tar.gz -d rezultat -p dz1 -v
+  979  clear
+  980  nano pos5.sh 
+  981  ./pos5.sh -f ./primer.tar.gz -d rezultat -p dz1 -v
+  982  nano pos5.sh 
+  983  ./pos5.sh -f ./primer.tar.gz -d rezultat -p dz1 -v
+  984  clear
+  985  ls
+  986  cd rezultat/
+  987  ls
+  988  ./pos5.sh -f ./primer.tar.gz -d rezultat -p dz1 -v
+  989  cd ..
+  990  ./pos5.sh -f ./primer.tar.gz -d rezultat -p dz1 -v
+  991  nano pos5.sh 
+  992  ./pos5.sh -f ./primer.tar.gz -d rezultat -p dz1 -v
+  993  clear
+  994  ls rezultat/
+  995  clear
+  996  ls
+  997  nano pos5.sh 
+  998  ./pos5.sh -f ./primer.tar.gz -d rezultat -p dz1 -v
+  999  clear
+ 1000  nano pos5.sh 
+ 1001  ./pos5.sh -f ./primer.tar.gz -d rezultat -p dz1 -v
+ 1002  cd /
+ 1003  ls
+ 1004  cd ~
+ 1005  ls
+ 1006  cd Desktop/UM_WORKSPACE/bash_workspace/
+ 1007  ls
+ 1008  nano pos5.sh 
+ 1009  ./pos5.sh -f ./primer.tar.gz -d rezultat -p dz1 -v
+ 1010  clea
+ 1011  clear
+ 1012  ls rezultat/
+ 1013  cat rezultat/aa010001.c 
+ 1014  clear
+ 1015  ./pos5.sh -f ./primer.tar.gz -d rezultat -p dz1 
+ 1016  ls rezultat/
+ 1017  cat rezultat/*.c
+ 1018  clear
+ 1019  ls
+ 1020  rm -r primer/
+ 1021  rm -r rezultat/
+ 1022  ls
+ 1023  clear
+ 1024  history >> linux_commands3.txt
